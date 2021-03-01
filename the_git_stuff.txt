@@ -1,0 +1,13 @@
+cd C:/Users/madhu/projects/pyeutk
+echo "# Tkinter Tutorial by www.python-course.eu" >> README.md 
+git init 
+git add README.md 
+git commit -m "Latest commit" 
+git branch -M main 
+git remote add origin https://github.com/MadhuV99/pyeutk.git   
+git push -u origin main 
+
+git add -A 
+git commimt -m "Latest Commit" 
+git push shinjuLast1MM 
+
