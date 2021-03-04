@@ -22,12 +22,20 @@ programming language:""",
          padx = 20).pack()
 
 for language, val in languages:
+    # tk.Radiobutton(root, 
+    #                text=language,
+    #                padx = 20, 
+    #                variable=v, 
+    #                command=ShowChoice,
+    #                value=val).pack(anchor=tk.W)
+    # Text Button instead of Radiobutton
     tk.Radiobutton(root, 
-                   text=language,
-                   padx = 20, 
-                   variable=v, 
-                   command=ShowChoice,
-                   value=val).pack(anchor=tk.W)
-
+                  text=language,
+                  indicatoron = 0,
+                  width = 20,
+                  padx = 20, 
+                  variable=v, 
+                  command=ShowChoice,
+                  value=val).pack(anchor=tk.W)
 
 root.mainloop()
